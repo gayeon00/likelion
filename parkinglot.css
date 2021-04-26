@@ -1,0 +1,54 @@
+body{
+    width: 700px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+header{
+    display: block;
+    padding: 50px;
+    text-align:center;
+}
+
+form{
+    background: rgb(150, 223, 206);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.myimage{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.maps{
+    margin: 0 auto;
+    padding-left:50px;
+    border: 1px solid black;
+}
+
+.parkinglot_list>*{
+    display:flex;
+    border: 1px solid black;
+}
+
+aside{
+    background: gray;
+    flex: 3;
+    padding: 30px;
+}
+.parkinglot_name{
+    margin: 10px;
+    text-align:justify;
+}
+.parkinglot_content{
+    padding-left: 140px;
+}
+.parkinglot{
+    justify-content: center;
+    align-items: center;
+}
